@@ -1,0 +1,165 @@
+/* Write some CSS below */
+
+
+
+body {
+  font-family: 'El Messiri', sans-serif;
+  color: #8989ba;
+  font-size: 18px;
+  text-align:center ;
+}
+
+h1, h2{
+	font-family: 'El Messiri', sans-serif;
+	font-weight: 400;
+	color: #596a72;
+	text-align:center ;
+}
+
+ h3 {
+  font-family: 'El Messiri', sans-serif;
+  text-align:left ;
+}
+
+a {
+  color: #3f4c6b;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+  text-align:center ;
+}
+
+a:hover {
+  color: #ebe9f9;
+  text-align:center ;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-gap: 16px;
+
+}
+
+.banner{
+	background-image: url('images/background.jpg');
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	padding: 180px;	
+
+}
+
+
+
+.banner h1{
+	color: white;
+	font-size: 200x;
+}
+
+.banner p{
+	color: white;
+	opacity: .7;
+}
+
+.button-blue {
+  background-color: #7A7494;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue:hover {
+  background-color: #ebe9f9;
+  color: #3f4c6b;
+}
+
+.container {
+  width: 800px;
+  margin: 60px auto;
+}
+
+.container h2 {
+	font-weight: bold;
+	text-align: left;
+
+}
+
+.card-white {
+	background-color: white;
+	display: block;
+	margin: 8px;
+	padding: 24px;
+	border-radius: 4px;
+	box-shadow:1px 1px 16px rgba(122,116,148,0.5);
+	flex-grow: 1;
+	width: 200px;
+	text-align: center;
+
+
+}
+
+.card-white img{
+
+	width:  100%;
+	object-fit: cover;
+	border-radius: 4px;
+
+
+}
+
+.card-white h2{
+	text-align: left;
+}
+
+.card-white h3{
+	font-family: 'El Messiri', sans-serif;
+	color: #46405E;
+}
+
+.card-white p{
+	text-align: left;
+}
+
+.footer {
+	text-align: center;
+	background-color: grey;
+	color: white;
+	padding: 60px;
+	margin: auto auto;
+}
+
+@media (max-width: 800px) {
+	.cards{
+		grid-template-columns: 1fr;
+	}
+
+
+	.card-white{
+		width: 70%;
+	}
+}
+
+@media (min-width: 500px) {
+  .container {
+    width: 70%;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 70%;
+  }
+}
+
+
